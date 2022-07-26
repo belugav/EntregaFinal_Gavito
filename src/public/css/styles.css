@@ -1,0 +1,36 @@
+body {
+  color: #000000;
+  height: 100vh;
+}
+
+.lblprice{
+  background-color:lightskyblue;
+  color: #000000;
+  font-size: 0.8rem;
+}
+
+.card-text{
+  overflow: hidden;
+  font-size: 1rem;
+  text-overflow: ellipsis;
+  display: -webkit-box;-webkit-line-clamp: 3;
+           line-clamp: 1; 
+          -webkit-box-orient: vertical;
+}
+
+.passwordMatches {
+  border-color: #86fea0;
+  outline: 0;
+  box-shadow: 0 0 0 0.25rem rgb(17 253 13 / 25%);
+}
+
+.passwordNotEqual {
+  border-color: #fe8686;
+  outline: 0;
+  box-shadow: 0 0 0 0.25rem rgb(253 13 13 / 17%);
+}
+
+.card-body{
+  background-color: coral;
+  box-shadow: 0 0 0 0.25rem rgb(253 13 13 / 17%);
+}
